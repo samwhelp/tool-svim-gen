@@ -14,7 +14,7 @@
 
 
 " ## new tabpage or close
-nnoremap `t :tabnew<CR>
+"nnoremap ,t :tabnew<CR>
 "nnoremap tt :tabnew<CR>
 nnoremap tg :tabnew<CR>
 nnoremap tc :tabclose<CR>
