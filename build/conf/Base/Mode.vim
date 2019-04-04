@@ -93,24 +93,35 @@ set novisualbell
 """ Head: Search
 ""
 
-" ##
+" ## :help 'showmatch'
 set showmatch
+"set noshowmatch
 
 
-" ##
+
+" ## :help 'hlsearch'
 set hlsearch
+"set nohlsearch
 
 
-" ##
+" ## :help 'incsearch'
 set incsearch
+"set noincsearch
 
 
-" ##
-set ignorecase
+" ## :help 'ignorecase'
+"set ignorecase
+set noignorecase
 
 
-" ##
+" ## :help 'smartcase'
 "set smartcase
+set nosmartcase
+
+
+" ## shortcut key
+nnoremap \i :set ignorecase<CR>
+nnoremap \o :set noignorecase<CR>
 
 ""
 """ Tail: Search
