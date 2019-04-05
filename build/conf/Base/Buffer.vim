@@ -68,10 +68,10 @@ nnoremap ,s :w<CR>
 ""
 
 " ## delete buffer
-"nnoremap <Leader>q :bdelete<CR>
-"nnoremap <Leader>x :%bdelete<CR>
-"nnoremap <Leader>z :bdelete!<CR>
-"nnoremap <Leader>c :%bdelete!<CR>
+"nnoremap <Bslash>q :bdelete<CR>
+"nnoremap <Bslash>x :%bdelete<CR>
+"nnoremap <Bslash>z :bdelete!<CR>
+"nnoremap <Bslash>c :%bdelete!<CR>
 
 
 
@@ -91,10 +91,10 @@ nnoremap ,s :w<CR>
 ""
 
 " ## delete buffer
-nnoremap <Leader>q :q<CR>
-nnoremap <Leader>x :qa<CR>
-nnoremap <Leader>z :q!<CR>
-nnoremap <Leader>c :qa!<CR>
+nnoremap <Bslash>q :q<CR>
+nnoremap <Bslash>x :qa<CR>
+nnoremap <Bslash>z :q!<CR>
+nnoremap <Bslash>c :qa!<CR>
 
 
 " ## quit

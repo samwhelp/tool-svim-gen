@@ -22,7 +22,7 @@ set list
 
 
 " ## switch invisible chars
-nnoremap <Leader>a :set list!<CR>
+nnoremap <Bslash>a :set list!<CR>
 
 ""
 """ Tail: Option - Show Invisibles
