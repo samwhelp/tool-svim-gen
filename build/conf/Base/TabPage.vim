@@ -13,13 +13,7 @@
 " :help normal-index
 
 
-" ## new tabpage or close
-"nnoremap ,t :tabnew<CR>
-"nnoremap tt :tabnew<CR>
-nnoremap tg :tabnew<CR>
-nnoremap tc :tabclose<CR>
-nnoremap te :tabedit<Space>
-nnoremap tf :tabnew<CR>:edit<Space>
+
 
 
 " ## switch next or previous
@@ -59,31 +53,47 @@ nnoremap t9 9gt
 nnoremap t0 10gt
 
 
-" ## show help page
-"nnoremap tb :tabnew<CR>:help<CR><C-w>w:quit!<CR><Esc>
-nnoremap tb :tab help<CR>
 
 
 " ## move left or right
 nnoremap tu :-tabmove<CR>
 nnoremap ti :+tabmove<CR>
+nnoremap tmh :-tabmove<CR>
+nnoremap tml :+tabmove<CR>
 
-
-" ## move to 1~10
-nnoremap tm1 :0tabmove<CR>
-nnoremap tm2 :1tabmove<CR>
-nnoremap tm3 :2tabmove<CR>
-nnoremap tm4 :3tabmove<CR>
-nnoremap tm5 :4tabmove<CR>
-nnoremap tm6 :5tabmove<CR>
-nnoremap tm7 :6tabmove<CR>
-nnoremap tm8 :7tabmove<CR>
-nnoremap tm9 :8tabmove<CR>
-nnoremap tm0 :9tabmove<CR>
 
 " ## move to first or last
 nnoremap tmj :0tabmove<CR>
 nnoremap tmk :$tabmove<CR>
+
+
+" ## tab move
+" :help tabmove
+" Move the current tab page to after tab page N.
+" Use zero to make the current tab page the first one
+nnoremap tm0 :0tabmove<CR>
+nnoremap tm1 :1tabmove<CR>
+nnoremap tm2 :2tabmove<CR>
+nnoremap tm3 :3tabmove<CR>
+nnoremap tm4 :4tabmove<CR>
+nnoremap tm5 :5tabmove<CR>
+nnoremap tm6 :6tabmove<CR>
+nnoremap tm7 :7tabmove<CR>
+nnoremap tm8 :8tabmove<CR>
+nnoremap tm9 :9tabmove<CR>
+
+
+" ## open current window to new tabpage
+nnoremap ts :tab split<CR>
+
+
+" ## new tabpage or close
+"nnoremap ,t :tabnew<CR>
+"nnoremap tt :tabnew<CR>
+nnoremap tg :tabnew<CR>
+nnoremap tc :tabclose<CR>
+nnoremap te :tabedit<Space>
+nnoremap tf :tabnew<CR>:edit<Space>
 
 
 " ## quit all
@@ -91,11 +101,22 @@ nnoremap tqa :qa!<CR>
 
 
 " ## close other tabpage
+" use twa to close other tabpage, then all buffer will hide, if set hidden.
 nnoremap twa :tabonly<CR>
+" Note:
+" use ,c to delete all buffer, then all tapage will close.
+" use ,wa to close other window, then all buffer will hide, if set hidden.
+" use ,h to hide current buffer, then current tapage will close.
 
 
-" ## open current window to new tabpage
-nnoremap ts :tab split<CR>
+
+
+
+
+" ## show help page
+"nnoremap tb :tabnew<CR>:help<CR><C-w>w:quit!<CR><Esc>
+nnoremap tb :tab help<CR>
+
 
 ""
 """ Tail: TabPage
