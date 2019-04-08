@@ -16,7 +16,7 @@ find_dir_path () {
 
 ##THIS_BASE_DIR_PATH=$(find_dir_path $0)
 
-## $ export DEBUG_TOOL=true
+## $ export DEBUG_VIMRC_TOOL=true
 is_debug () {
 	if [ "$DEBUG_VIMRC_TOOL" = "true" ]; then
 		return 0

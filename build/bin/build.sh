@@ -54,9 +54,9 @@ svim_build_vimrc () {
 
 	# head
 
-	util_debug_echo
-	util_debug_echo "+Start: $file_path"
-	util_debug_echo > "$file_path"
+	echo
+	echo "+Start: $file_path"
+	echo > "$file_path"
 
 	# boot
 	svim_apd_boot_file "Start.vim" "$file_path"
