@@ -119,9 +119,10 @@ set noignorecase
 set nosmartcase
 
 
-" ## shortcut key
+" ## shortcut key for switch ignorecase
 nnoremap \i :set ignorecase<CR>
 nnoremap \o :set noignorecase<CR>
+"nnoremap \i :set ignorecase!<CR> # switch ignorecase
 
 ""
 """ Tail: Search

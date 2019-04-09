@@ -49,8 +49,8 @@ base_var_init () {
 	THE_CONF_DIR_PATH="$THE_PLAN_DIR_PATH/$THE_CONF_DIR_NAME"
 
 
-	THE_VIMRC_DIR_PATH=$(find_dir_path "$THE_PLAN_DIR_PATH/../.")
-
+	## THE_VIMRC_DIR_PATH=$(find_dir_path "$THE_PLAN_DIR_PATH/../.")
+	THE_VIMRC_DIR_PATH=$(find_dir_path "$THE_PLAN_DIR_PATH/../../var/tool-svim-core/.")
 
 }
 

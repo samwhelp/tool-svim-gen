@@ -1,13 +1,13 @@
 
 # tool-svim-gen
 
-* [tool-svim-gen](https://samwhelp.github.io/tool-svim-gen) ([GitHub](https://github.com/samwhelp/tool-svim-gen))
+* tool-svim-gen ([GitHub](https://github.com/samwhelp/tool-svim-gen))
 
 
 ## for
 
-* [tool-svim-core](https://github.com/samwhelp/tool-svim-core)
-
+* [gen/vimrc](gen/vimrc) -> tool-svim/[vimrc](https://github.com/samwhelp/tool-svim/blob/master/vimrc)
+* [gen/core](gen/core)  -> tool-svim-core/plugin/[Svim](https://github.com/samwhelp/tool-svim-core/blob/master/plugin/Svim.vim)
 
 ## doc
 
