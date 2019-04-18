@@ -7,6 +7,7 @@
 function! s:ConfigInControl () abort
 
 	call s:PackConfBase()
+	call s:ConfEnhance()
 
 endfunction
 
