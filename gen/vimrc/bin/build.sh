@@ -166,6 +166,7 @@ svim_build_all () {
 
 	# plug
 	svim_apd_conf_file "PlugEnhance.vim" "$file_path"
+	svim_apd_conf_file "ConfEnhance.vim" "$file_path"
 
 
 	# pack
