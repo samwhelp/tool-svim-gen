@@ -28,7 +28,6 @@ set hidden
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: Buffer
 ""
@@ -44,8 +43,7 @@ nnoremap <C-Down> :bnext<CR>
 nnoremap <C-j> :bprevious<CR>
 nnoremap <C-k> :bnext<CR>
 " Note: collision <CTRL+\>
-" :help index.txt
-" :help mode-switching
+" :help index.txt :help mode-switching
 "nnoremap <C-Bslash> :bnext<CR>
 
 
@@ -56,7 +54,9 @@ nnoremap ,b :ls<CR>
 
 
 " ## save
-nnoremap ,s :w<CR>
+"nnoremap ,s :w<CR>
+nnoremap <S-Tab> :w<CR>
+inoremap <S-Tab> <Esc>:w<CR>a
 
 ""
 """ Tail: Buffer
