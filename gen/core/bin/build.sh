@@ -85,6 +85,7 @@ svim_build_vimrc () {
 	svim_apd_conf_file "Base/Explore.vim" "$file_path"
 	svim_apd_conf_file "Base/Mode.vim" "$file_path"
 	svim_apd_conf_file "Base/Cache.vim" "$file_path"
+	svim_apd_conf_file "Base/Edit.vim" "$file_path"
 
 
 	# conf - extra
