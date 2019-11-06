@@ -40,7 +40,8 @@ nnoremap <C-Down> :bnext<CR>
 nnoremap <C-j> :bprevious<CR>
 nnoremap <C-k> :bnext<CR>
 " Note: collision <CTRL+\>
-" :help index.txt 
+" :help index
+" :help index.txt
 " :help mode-switching
 "nnoremap <C-Bslash> :bnext<CR>
 
@@ -67,16 +68,16 @@ inoremap <S-Tab> <Esc>:w<CR>a
 
 " ## delete buffer
 "nnoremap <Bslash>q :bdelete<CR>
-"nnoremap <Bslash>x :%bdelete<CR>
 "nnoremap <Bslash>z :bdelete!<CR>
+"nnoremap <Bslash>x :%bdelete<CR>
 "nnoremap <Bslash>c :%bdelete!<CR>
 
 
 
 " ## quit
 "nnoremap ,q :q<CR>
-"nnoremap ,x :qa<CR>
 "nnoremap ,z :q!<CR>
+"nnoremap ,x :qa<CR>
 "nnoremap ,c :qa!<CR>
 
 ""
@@ -90,17 +91,16 @@ inoremap <S-Tab> <Esc>:w<CR>a
 
 " ## delete buffer
 nnoremap <Bslash>q :q<CR>
-nnoremap <Bslash>x :qa<CR>
 nnoremap <Bslash>z :q!<CR>
+nnoremap <Bslash>x :qa<CR>
 nnoremap <Bslash>c :qa!<CR>
 
 
 " ## quit
 nnoremap ,q :bdelete<CR>
-nnoremap ,x :%bdelete<CR>
 nnoremap ,z :bdelete!<CR>
+nnoremap ,x :%bdelete<CR>
 nnoremap ,c :%bdelete!<CR>
-
 
 ""
 """ Tail: Quit - Case 2
