@@ -6,8 +6,11 @@
 
 ## for
 
-* [gen/vimrc](gen/vimrc) -> tool-svim/[vimrc](https://github.com/samwhelp/tool-svim/blob/master/vimrc)
-* [gen/core](gen/core)  -> tool-svim-core/plugin/[Svim](https://github.com/samwhelp/tool-svim-core/blob/master/plugin/Svim.vim)
+| gen | for |
+| --- | --- |
+| [gen/vimrc](gen/vimrc) | tool-svim/[vimrc](https://github.com/samwhelp/tool-svim/blob/master/vimrc) |
+| [gen/core](gen/core) | tool-svim-core/plugin/[Svim](https://github.com/samwhelp/tool-svim-core/blob/master/plugin/Svim.vim) |
+| [gen/enhance](gen/enhance) | tool-svim-core-enhance/plugin/[SvimEnhance.vim](https://github.com/samwhelp/tool-svim-core-enhance/blob/master/plugin/SvimEnhance.vim) |
 
 ## doc
 
