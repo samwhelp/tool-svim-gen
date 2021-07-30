@@ -69,6 +69,7 @@ svim_build_vimrc () {
 	# conf - base
 	svim_apd_conf_file "Base/Editing.vim" "$file_path"
 	svim_apd_conf_file "Base/Motion.vim" "$file_path"
+	svim_apd_conf_file "Base/Clipboard.vim" "$file_path"
 
 
 
